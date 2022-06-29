@@ -1,0 +1,28 @@
+Achilles Screening Project ID
+Arxspan Cell Line Registration ID
+Cell Line Name
+GPP Doubling Time (hrs)
+Cells/T175 or Cells/mL
+Cas no-spin attempts
+Cas spin attempts
+Cas virus batch
+Blasticidin Selection (ug/ml)
+Activity (%GFP negative)
+DERIV ID
+Titration Attempts
+Virus Pool Name
+Virus Pool Batch
+Puromycin Selection (ug/ml)
+Flasks for infection (T175)
+Plates for infection
+Virus for infection (ml)
+Infection density (cells/well)
+Large-scale attempts
+Start Date of Pooled Infection
+Late Harvest Date
+Target Infection Rate
+Observed Infection Rate
+Observed Cell Representation
+Average Observed Cell Yield on Day 5
+Cumulative Screen Doublings
+File Name
