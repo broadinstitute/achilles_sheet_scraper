@@ -13,10 +13,10 @@ def main():
     print('\n----------------------------------------------------------------\nError Log:\n')    #Errors will fall into this divider when printing into terminal
 
     #set columns of parse tab to scrape using column list from txt files in /columns_to_scrape
-    column_file = open(r'columns_to_scrape/meta_columns.txt', 'r')
-    columns = column_file.read()
-    column_list = columns.split('\n')
-    column_file.close()
+    with open(r'columns_to_scrape/meta_columns.txt', 'r') as column_file:
+        columns = column_file.read()
+        column_list = columns.split('\n')
+        column_file.close()
 
     #create instance of Scraper class using column list as an input variable
     from Scraper import Scraper

@@ -7,7 +7,7 @@ def save_metadata_df(output_path, output_name, metadata):
     try:
         import pandas as pd
         metadata = metadata.reset_index()
-        metadata.to_csv(output_path + output_name, columns = column_list)
+        metadata.sort_values(by = 'Achilles Screening Project ID', ascending = True).to_csv(output_path + output_name, columns = column_list)
         print('\n----------------------------------------------------------------\nSuccesfully saved metadata as {} in {}\n----------------------------------------------------------------\n'.format(output_name, output_path))
     except Exception:
         print('\n----------------------------------------------------------------\nError attempting to save {} in {}\n----------------------------------------------------------------\n'.format(output_name, output_path))
