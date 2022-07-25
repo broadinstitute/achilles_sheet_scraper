@@ -7,7 +7,7 @@ def get_filepaths():
     meta_files_df = pd.DataFrame()
 
     #get all folders to search for files in from input file in /sheet_file_paths/input_folder_paths/folders_to_scrape.txt
-    with open(r'sheet_file_paths/input_folder_paths/folders_to_scrape.txt') as folders:
+    with open(r'sheet_file_paths/folders_to_scrape/folders_to_scrape.txt') as folders:
         folder_paths = folders.read()
         folder_paths = folder_paths.split('\n')
         folders.close()
@@ -31,6 +31,6 @@ def get_filepaths():
     #save file paths one file per month
     from datetime import datetime
     date = datetime.now().strftime("%Y%m")
-    filtered_sheet_df.to_csv(r'sheet_file_paths/file_paths_{}.csv'.format(date))
+    filtered_sheet_df.to_csv(r'folders_to_scrape/output_file_paths/file_paths_{}.csv'.format(date))
 
     return filtered_sheet_df
