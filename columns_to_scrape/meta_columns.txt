@@ -8,7 +8,6 @@ Cas spin attempts
 Cas virus batch
 Blasticidin Selection (ug/ml)
 Activity (%GFP negative)
-DERIV ID
 Titration Attempts
 Virus Pool Name
 Virus Pool Batch

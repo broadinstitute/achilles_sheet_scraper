@@ -2,3 +2,5 @@ numpy
 openpyxl
 pandas
 pygsheets
+os
+numpy
